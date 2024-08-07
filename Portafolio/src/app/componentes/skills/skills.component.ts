@@ -18,11 +18,15 @@ interface Skill {
 export class SkillsComponent {
 
   technicalSkills: Skill[] = [
-    { name: 'Javascript', percentage: '75%', className: 'javascript' },
-    { name: 'HTML & CSS', percentage: '89%', className: 'htmlcss' },
-    { name: 'Photoshop', percentage: '95%', className: 'photoshop' },
-    { name: 'Wordpress', percentage: '81%', className: 'wordpress' },
-    { name: 'Drupal', percentage: '55%', className: 'drupal' }
+   
+    { name: 'HTML & CSS', percentage: '90%', className: 'htmlcss' },
+    { name: 'JavaScript', percentage: '75%', className: 'javascript' },
+    { name: 'TypeScript', percentage: '81%', className: 'typeScript' },
+    { name: 'Firebase', percentage: '80%', className: 'firebase' },
+    { name: 'Angular', percentage: '90%', className: 'angular' },
+    { name: 'Bootstrap', percentage: '90%', className: 'bootstrap' },
+    { name: 'PrimeNg', percentage: '92%', className: 'primeng' },
+    { name: 'Angular Material', percentage: '55%', className: 'material' }
   ];
 
   professionalSkills: Skill[] = [

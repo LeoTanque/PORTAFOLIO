@@ -11,7 +11,7 @@
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
+   // padding: 20px 0;
   }
   .curriculum .fila {
     display: flex;
@@ -24,7 +24,7 @@
   .curriculum .fila .col h3 {
     font-size: 28px;
     font-family: 'Righteous';
-    margin-bottom: 25px;
+    margin-bottom: 25px; 
   }
   .curriculum .grid-container {
     display: grid;
@@ -107,6 +107,12 @@
     font-size: 22px;
     font-weight: bold;
     display: block;
-    margin-bottom: 5px;
+    margin: 15px;
     text-align: center;
+    font-family: 'Righteous';
 }
+
+.card {
+  font-family: 'Righteous';
+}
+
