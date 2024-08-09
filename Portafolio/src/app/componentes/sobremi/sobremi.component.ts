@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class SobremiComponent {
   personalData = [
    // { label: 'Cumpleaños', value: '15-01-1980' },
-    { label: 'Teléfono', value: '+53 56819790' },
+    { label: 'Teléfono', value: '+5356819790' },
     { label: 'Email', value: 'leodanismiranda@gmail.com' },
     //{ label: 'Website', value: 'www.example.com' },
     { label: 'Dirección', value: 'Holguin, Moa, Cuba' },

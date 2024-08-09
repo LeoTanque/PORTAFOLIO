@@ -18,12 +18,12 @@ interface Project {
 export class PortafolioComponent {
 
   projects: Project[] = [
-    { imgSrc: 'assets/img/hero.png', title: 'Diseño Creativo', description: 'Fotografía' },
-    { imgSrc: 'assets/img/hero.png', title: 'Diseño Creativo', description: 'Fotografía' },
-    { imgSrc: 'assets/img/hero.png', title: 'Diseño Creativo', description: 'Fotografía' },
-    { imgSrc: 'assets/img/hero.png', title: 'Diseño Creativo', description: 'Fotografía' },
-    { imgSrc: 'assets/img/hero.png', title: 'Diseño Creativo', description: 'Fotografía' },
-    { imgSrc: 'assets/img/hero.png', title: 'Diseño Creativo', description: 'Fotografía' },
+    { imgSrc: 'assets/img/logofixbeep.jpeg', title: 'Fixbeep', description: 'Fotografía' },
+    { imgSrc: 'assets/img/logoiwois.png', title: 'IWOIS', description: 'Fotografía' },
+    { imgSrc: 'assets/img/compraenlinea.png', title: 'Tienda de Autos', description: 'Fotografía' },
+    { imgSrc: 'assets/img/fondo1.jpg', title: 'Mex Material Handling', description: 'Fotografía' },
+ 
+    
   ];
 
 }

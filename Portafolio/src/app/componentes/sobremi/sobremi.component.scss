@@ -3,9 +3,9 @@
     color: #fff;
     padding: 20px 20px;
     font-family: 'Righteous';
-    height: 100%;
+  
 }
-.sobremi .contenido-seccion{
+.sobremi .contenido-seccion{ 
     max-width: 1100px;
     margin: auto;
 }
@@ -27,10 +27,16 @@
 }
 .sobremi .fila{
     display: flex;
+    justify-content: center; 
 }
 .sobremi .fila .col
 {
-    width: 50%;
+    width: 100%; /* Opcional: Si deseas que las columnas ocupen todo el ancho disponible */
+    max-width: 600px; /* Ajusta este valor según el ancho que prefieras */
+    //text-align: center; /* Centra el texto dentro de las columnas */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 .sobremi .fila .col h3{
     font-size: 28px;
@@ -39,11 +45,13 @@
 }
 .sobremi .fila .col ul{
     list-style: none;
+    padding: 0;
 }
 .sobremi .fila .col ul li{
     margin: 12px 0;
     
 }
+
 
 .sobremi .fila .col ul li strong{
     display: inline-block;

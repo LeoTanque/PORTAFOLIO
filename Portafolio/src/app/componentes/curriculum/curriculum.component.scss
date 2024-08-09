@@ -116,3 +116,70 @@
   font-family: 'Righteous';
 }
 
+
+
+/* Media Query para pantallas medianas */
+@media (max-width: 950px) {
+  .curriculum .grid-container {
+    grid-template-columns: 1fr; /* Una columna en lugar de dos */
+  }
+  
+  .curriculum .fila {
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+  }
+  
+  .curriculum .fila .col {
+    width: 100%; /* Ancho completo */
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .curriculum .fila .izq,
+  .curriculum .fila .der {
+    border: none; /* Elimina las líneas divisorias */
+  }
+  
+  .curriculum .card {
+    margin-bottom: 20px; /* Agrega un margen inferior para separar las tarjetas */
+  }
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .curriculum h2 {
+    font-size: 36px; /* Reduce el tamaño del título principal */
+  }
+
+  .curriculum .contenido-seccion {
+    padding: 20px; /* Reduce el padding */
+  }
+
+  .curriculum .grid-container {
+    grid-template-columns: 1fr; /* Mantener una columna para pantallas pequeñas */
+    gap: 15px; /* Reduce el espacio entre elementos */
+  }
+
+  .curriculum .card h4 {
+    font-size: 18px; /* Reduce el tamaño de los títulos */
+  }
+
+  .curriculum .card .casa,
+  .curriculum .card .fecha {
+    font-size: 18px; /* Reduce el tamaño de la fuente */
+  }
+}
+
+/* Media Query para pantallas muy pequeñas (móviles) */
+@media (max-width: 480px) {
+  .curriculum h2 {
+    font-size: 28px; /* Tamaño de fuente más pequeño */
+  }
+
+  .curriculum .card {
+    padding: 15px; /* Menor padding en las tarjetas */
+  }
+
+  .curriculum .card p {
+    line-height: 20px; /* Ajustar la altura de la línea */
+  }
+}
